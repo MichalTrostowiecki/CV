@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: 300;
+  background-image: url(./1.png);
+  background-position: right;
+  background-size: 20% auto;
+  background-repeat: no-repeat;
+
+  
+}
+window {
+  max-width: 950px;
+}
+.my-picture {
+  display: flex;
+  height: 300px;
+  
+}
+
+.container {
+  margin: 0;
+  margin-left: 40px;
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "main main sidebar"
+    "main main sidebar"; 
+    min-width: 900px; 
+    max-width: 950px;
+}
+
+
+
+.sidebar {
+  margin-left: 40px;
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h3 {
+  margin-top: -40px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.header h1 {
+  
+  font-weight: 900;
+  font-size: 65px;
+  margin-top: 10px;
+}
+
+.profile {
+  font-size: 18px;
+  margin-bottom: 100px;
+  font-weight: 300;
+}
+
+
+
+.tag h3 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+
+.name {
+  line-height: 0.9;
+}
+
+.date {
+  color: grey;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: -12px;
+  font-weight: 500;
+}
+
+h4, .school{
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+
+
+.skills p {
+  font-size: 15px;
+  line-height: 0.7;
+}
+
+li {
+  font-size: 15px;
+
+}
+
+ul {
+  list-style: none;
+}
+ul li:before{ content:"• "; font-size:8pt; }
+
