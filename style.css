@@ -20,8 +20,8 @@ body {
     "header header header"
     "main main sidebar"
     "main main sidebar"; 
-  min-width: 835px;
-  max-width: 835px;
+  min-width: 960px;
+  max-width: 960px;
   background-image: url(./background.png);
   background-size:contain;
   background-repeat: no-repeat;
@@ -31,6 +31,7 @@ body {
 .sidebar {
   margin-right: 30px;
   grid-area: sidebar;
+  margin-left: 5px;
 }
 
 .main {
